@@ -1,0 +1,35 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.form-control:focus {
+    border-color: #be1116;
+    box-shadow: none;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: #be1116;
+    border-color: #be1116;
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    border-color: #be1116;
+    color: #be1116;
+}
+
+.form-heading {
+    color: #BE1116;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
