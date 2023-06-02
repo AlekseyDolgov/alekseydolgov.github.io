@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Форма обратной связи</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="view/css/style.css">
@@ -10,7 +11,7 @@
 <body>
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-6">
+        <div class="col-md-6 form-container">
             <h2 class="text-center form-heading">Форма обратной связи</h2>
             <form action="processing.php" method="POST">
                 <div class="form-group">
